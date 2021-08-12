@@ -1,0 +1,29 @@
+{
+  "name": "system-design-products",
+  "version": "1.0.0",
+  "description": "Service for /products endpoint of project catwalk backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabbro-SDC/Gabbro-System-Designs-Products.git"
+  },
+  "author": "Clendon DuRapau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabbro-SDC/Gabbro-System-Designs-Products/issues"
+  },
+  "homepage": "https://github.com/Gabbro-SDC/Gabbro-System-Designs-Products#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "postgres": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "jest": "^27.0.6"
+  }
+}
