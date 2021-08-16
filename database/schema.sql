@@ -1,5 +1,3 @@
--- Type this command in terminal: psql clendon -d runway -h 127.0.0.1 -a -f ./database/schema.sql
-
 -- Table products
 
 DROP TABLE IF EXISTS products CASCADE;
