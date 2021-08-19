@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Gabbro-SDC/Gabbro-System-Designs-Products#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "pg": "^8.7.1"
   },
   "devDependencies": {
