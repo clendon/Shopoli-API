@@ -13,6 +13,8 @@ COPY styles
   DELIMITER ','
   NULL 'null'
   CSV HEADER;
+-- Some sale_price values are null, and some are 0. Added this line below to convert them all to null for consistency.
+UPDATE styles SET sale_price = NULL WHERE sale_price = 0;
 
 COPY photos
   FROM '/home/clendon/hack-reactor/sdc/raw_data/photos.csv'

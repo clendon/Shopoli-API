@@ -2,3 +2,6 @@ node_modules
 
 ## Raw Data Files
 /raw_data
+
+## DB Password
+server/db/config/config.js
