@@ -125,8 +125,8 @@ GET /products/:product_id/styles
   			{
           "thumbnail_url": "urlplaceholder/style_1_photo_number_thumbnail.jpg",
           "url": "urlplaceholder/style_1_photo_number.jpg"
-        }
-  			// ...
+        },
+        // ...
       ],
       "skus": {
         "37": {
@@ -144,36 +144,37 @@ GET /products/:product_id/styles
         //...
       }
     },
-  {
-    "style_id": 2,
-    "name": "Desert Brown & Tan",
-    "original_price": "140",
-    "sale_price": "0",
-    "default?": false,
-    "photos": [
-      {
-        "thumbnail_url": "urlplaceholder/style_2_photo_number_thumbnail.jpg",
-        "url": "urlplaceholder/style_2_photo_number.jpg"
-       }
-      // ...
-    ],
-    "skus": {
-      "37": {
-        "quantity": 8,
-        "size": "XS"
-      },
-      "38": {
-        "quantity": 16,
-        "size": "S"
-      },
-      "39": {
-        "quantity": 17,
-        "size": "M"
-      },
-      //...
-    }
-  },
+    {
+      "style_id": 2,
+      "name": "Desert Brown & Tan",
+      "original_price": "140",
+      "sale_price": "0",
+      "default?": false,
+      "photos": [
+        {
+          "thumbnail_url": "urlplaceholder/style_2_photo_number_thumbnail.jpg",
+          "url": "urlplaceholder/style_2_photo_number.jpg"
+        }
+        // ...
+      ],
+      "skus": {
+        "37": {
+          "quantity": 8,
+          "size": "XS"
+        },
+        "38": {
+          "quantity": 16,
+          "size": "S"
+        },
+        "39": {
+          "quantity": 17,
+          "size": "M"
+        },
+        //...
+      }
+    },
   // ...
+  ]
 }
 ```
 ## Related Products
